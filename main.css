@@ -1,3 +1,25 @@
 header h1 {
-    padding-left: 350px;
+    padding-left: 280px;
+    font-size: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 490px;
+    font-size: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #5f9ea0;
+    font-family: 'Crimson Pro', serif;
+}
+
+img {
+    padding-left: 150px;
+    
 }
