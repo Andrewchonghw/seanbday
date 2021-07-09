@@ -1,12 +1,12 @@
 header h1 {
-    padding-left: 280px;
+    text-align: center;
     font-size: 40px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    padding-left: 490px;
+    padding-left: 14cm;
     font-size: 25px;
 }
 
@@ -20,6 +20,6 @@ body {
 }
 
 img {
-    padding-left: 150px;
+    padding-left: 20%;
     
 }
