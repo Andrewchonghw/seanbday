@@ -9,19 +9,17 @@
 
     <body>
         <p>sike nigga</p>
-        <div id="video-box">
-            <video id="video" width="320" height="240">
-                <source src="rick.mp4" type="video/mp4">
-            </video>
-            <button id="unmute">Next Meme</button>
-            <script>
-                document.addEventListener('click', musicPlay);
-                function musicPlay() {
-                    document.getElementById('video').play();
-                    document.removeEventListener('click', musicPlay);
-                }
-            </script>
-        </div>
+        <video id="video" width="320" height="240">
+            <source src="rick.mp4" type="video/mp4">
+        </video>
+        <button id="unmute">Next Meme</button>
+        <script>
+            document.addEventListener('click', musicPlay);
+            function musicPlay() {
+                document.getElementById('video').play();
+                document.removeEventListener('click', musicPlay);
+            }
+        </script>
         <li><a href="memes.html">Click here for memessss</a></li>
         <li><a href="memes.html">Click here for memessss</a></li>
         <li><a href="memes.html">Click here for memessss</a></li>
