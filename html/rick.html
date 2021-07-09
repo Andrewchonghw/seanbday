@@ -10,8 +10,15 @@
     <body>
         <p>sike nigga</p>
         <div id="video-box">
-            <iframe id="video" width="420" height="315"src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1"></iframe>
+            <iframe id="video" width="420" height="315"src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
             <button id="unmute">Next Meme</button>
+            <script>
+                document.addEventListener('click', musicPlay);
+                function musicPlay() {
+                    document.getElementById('video').play();
+                    document.removeEventListener('click', musicPlay);
+                }
+            </script>
         </div>
         <li><a href="memes.html">Click here for memessss</a></li>
         <li><a href="memes.html">Click here for memessss</a></li>
@@ -51,10 +58,5 @@
         <li><a href="memes.html">Click here for memessss</a></li>
         <li><a href="memes.html">Click here for memessss</a></li>
         <li><a href="memes.html">Click here for memessss</a></li>
-        <script>
-            unmute.addEventListener('click', function() {
-                video.muted = false;
-            });
-        </script>
     </body>
     </html>
