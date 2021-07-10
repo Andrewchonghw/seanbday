@@ -12,3 +12,8 @@ body {
 .space {
     padding-left: 10%;
 }
+
+#link {
+    padding-left: 15%;
+    font-size: 44px;
+}
