@@ -8,11 +8,12 @@
     </head>
 
     <body>
-        <p>video for your pain</p>
-        <video id="video" width="320" height="240" controls>
+        <p id="title">video for your pain</p>
+        <video id="video" width="540" height="320" controls>
             <source src="../rick.mp4" type="video/mp4">
         </video>
-        <button id="unmute">Next Meme</button>
+        <br>
+        <button id="unmute" onclick="typeWriter()">Next Meme</button>
         <script>
             document.addEventListener('click', musicPlay);
             function musicPlay() {
@@ -20,43 +21,20 @@
                 document.removeEventListener('click', musicPlay);
             }
         </script>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here asdasdasdfor memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click hereasdsadasd for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click herssasdadadfor memessss</a></li>
-        <li><a href="memes.html">Click here fasasdor memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here sdadasfor memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
-        <li><a href="memes.html">Click here for memessss</a></li>
+        <p id="demo"></p>
+        <p id="link"><a href="memes.html">Quit Page</a>---- Ong Dingus Lmfao</p>
+        <script>
+            var i = 0;
+            var txt = 'Lmao you thot, get rekt!'; /* The text */
+            var speed = 40; /* The speed/duration of the effect in milliseconds */
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("demo").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
     </body>
     </html>

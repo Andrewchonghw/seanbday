@@ -3,3 +3,30 @@ body {
     
 }
 
+@media only screen
+{    #unmute {
+        font-size: 50px;
+        background-color: yellow;
+        text-decoration-color: black;
+        display: inline-block;
+        margin-left: 2%;
+        cursor: pointer;
+    }
+}
+
+#title {
+    font-size: 60px;
+    color: purple;
+}
+
+#demo {
+    padding-bottom: 2500px;
+    font-size: 50px;
+    color: red;
+}
+
+#link {
+    padding-left: 20%;
+    font-size: 20px;
+    color: pink;
+}
